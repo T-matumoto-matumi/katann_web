@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hex-row {
+  display: flex;
+  justify-content: center;
+}
+
+.hex-row.offset {
+  /* No special offset needed if we handle margin in components */
+}
